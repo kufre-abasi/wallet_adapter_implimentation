@@ -5,7 +5,10 @@ export default function defaultPage() {
   return (
     <div>
       <Layout>
-        <p>welcome wallet connected</p>
+        <div className="bg-gray-400 shadow-sm lg:w-[40vh] w-full items-center justify-center flex p-4 text-brand rounded-md mx-auto mt-10">
+          {' '}
+          <p>welcome wallet connected</p>
+        </div>
       </Layout>
     </div>
   );
