@@ -81,26 +81,18 @@ const WelcomeScreen = () => {
 
 
   return (
-    <div className="flex flex-col text-brand  bg-white/85 w-full h-full justify-center items-center gap-5">
+    <div className="flex flex-col text-white  bg-white/10 w-full h-full justify-center items-center gap-5">
       <div className="text-center flex flex-col gap-2 ">
-        <div className="flex flex-row justify-center object-contain text-[30px] text-brand font-bold gap-2 h-auto items-center">
-          <img
-            src="/aleomail_logo.png"
-            className="h-[70px] object-cover"
-            alt=""
-          />
+        <div className="flex flex-row justify-center object-contain text-[30px] text-white font-bold gap-2 h-auto items-center">
 
-          {/* zkMail{' '}
-                  <i className="text-[8px]">Powered By Aleo |ANS</i> */}
         </div>
 
         {/* <strong className="font-bold text-3xl mb-6 font-mono">zkMail</strong> */}
         <h1 className="text-4xl font-extrabold font-Nunito">
-          Welcome to ALEOMAIL
+          Welcome to ZK workshop wallet adapter demo
         </h1>
         <i>Powered By Aleo</i>
-        <p>Connect your wallet to start messaging</p>
-      </div>
+       </div>
       {account ? (
         <button
           onClick={handleWalletConnect}

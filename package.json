@@ -9,6 +9,9 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@demox-labs/aleo-wallet-adapter-base": "^0.0.22",
+    "@demox-labs/aleo-wallet-adapter-react": "^0.0.21",
+    "@demox-labs/aleo-wallet-adapter-reactui": "^0.0.35",
     "@helia/dag-cbor": "^4.0.2",
     "@helia/json": "^4.0.2",
     "@helia/strings": "^4.0.2",
@@ -18,6 +21,7 @@
     "@puzzlehq/sdk": "^1.0.1",
     "@puzzlehq/sdk-core": "^1.0.1",
     "@yudiel/react-qr-scanner": "^2.1.0",
+    "aleo-adapters": "^1.2.1",
     "axios": "^1.5.1",
     "bcrypt": "^5.1.1",
     "crypto-js": "^4.2.0",
