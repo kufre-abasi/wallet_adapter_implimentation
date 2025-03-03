@@ -18,7 +18,7 @@ useEffect(() => {
     <>
       {isConnected ? (
         <div className="flex bg-[#e3e3e3] p-4 gap-4 max-h-screen h-screen overflow-hidden">
-          <div className=" h-full overflow-hidden">{children}</div>
+          <div className=" h-full overflow-hidden w-full">{children}</div>
         </div>
       ) : (
         <div className="flex bg-[#12141d] p-4 gap-4 max-h-screen h-screen overflow-hidden">
